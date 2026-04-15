@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/34c2e65d5a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    
+        <nav class="navbar">
+            <div class="navbar-container"> 
+                <a href="index.html" class="navbar-logo"></a>
+                <button class="navbar-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="navbar-menu">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
+
+            
+        </nav>
+        <div class="header-text">
+            <p>Frontend developer</p>
+            <h1>Hi,I am <span>Oghenefejiro Edemu</span><br>from Nigeria.</h1>
+        </div>
+    </div> 
+    <!-------about---------> 
+       <div id="about">
+        <div class="container">
+            <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/Purple Feminine Orchid Name Signature Logo.PNG">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                       <p>I am a university student with a growing passion for technology, <br>
+                            currently studying cybersecurity while building strong skills in <br>
+                            frontend development. I enjoy creating user-friendly and visually <br>
+                            appealing web interfaces, while also learning how to protect digital <br>
+                            systems and data. With a blend of creativity and analytical thinking <br>
+                            I am working towards becoming a well-rounded tech professionals capable <br>
+                            building secure and efficient digital solutions.
+                        </p>
+                        <div class="tab-titles">
+                             <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                             <p class="tab-links" onclick="opentab('education')">Education</p>
+                             <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        </div>
+                        <div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Frontend</span><br>Designing websites</li>
+                                    <li><span>Web Development</span><br>web app designs</li>
+                                    <li><span>App Development</span><br>Building Apps</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>Current</span><br>Studying cybersecurity at Admiralty University <br>of Nigeria</li>
+                                    <li><span>2018-2024</span><br>Secondary level at NNSS Port-harcourt</li>
+                                    <li><span>2014-2018</span><br>Primary Level at NOWA Warri</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>Frontend</span><br>Still learning</li>
+                                    <li><span>Cybersecurity expert</span><br>Still learning</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+       </div> 
+       <!-------Services--------->
+       <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Responsive Design</h2>
+                    <p>Make websites look good on phones,tablets <br>
+                    and desktops</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-area"></i>
+                    <h2>Performance Optimization</h2>
+                    <p>Make websites load faster and optimize <br>
+                    images and code</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-chart-bar"></i>
+                 <h2>Basic Web Animations</h2>
+                    <p>Add Smooth animations and Transitions and <br>
+                    improve user interaction
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+       </div>    
+        
+    
+        
+</body>
+<script src="scprit.js"></script>
+</html>
